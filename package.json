@@ -1,0 +1,17 @@
+{
+  "name": "progresso-servico-profissional",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Diário compartilhado de progresso de serviços com fotos e relatório imprimível em PDF.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "multer": "^2.0.0"
+  }
+}
